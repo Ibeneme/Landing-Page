@@ -10,9 +10,8 @@ export const SectionFive = () => {
             <h1 className='div-background-h1-one'> 
                 We take your security seriously
             </h1>
-            <p  className='div-background-p' >Passcoder is certified to the highest industry data privacy standards 
-                — protecting you and your customers' privacy. We regularly ask your 
-                consent third-party access to your details 
+            <p  className='div-background-p' >
+            Get verified on any website or mobile application needing KYC in minutes — not hours — not minutes with our simple and out-of-the-box solution. Once you are verified on Passcoder, you are verified everywhere else.
             </p>
             <ButtonOrangered />
         </div>

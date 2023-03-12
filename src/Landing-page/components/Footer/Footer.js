@@ -33,8 +33,10 @@ export const Footer = () => {
       </div>
       <br/>
       <br/>
-      <h5>@Passcoder Identity Limited 2023</h5>
-      
+      <h5>Copyright 2023, Passcoder Limited</h5>
+      <br />
+
+      <h6>Powered by Prembly</h6>
     </div>
   )
 }
