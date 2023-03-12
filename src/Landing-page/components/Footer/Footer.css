@@ -48,4 +48,12 @@
         justify-content: space-between;
         
     }
+    .btn-subscribe{
+        padding: 1.05em;
+        margin-left: 0.5em;
+        background-color: orangered;
+        border: none;
+        border-radius: 0.8em;
+        color:white;
+    }
 }

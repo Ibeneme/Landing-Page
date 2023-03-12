@@ -14,7 +14,7 @@ const Qualities = () => {
             {/* <label>Subscribe to our newsletter</label> */}
         <br/>
         </div>
-        <div>
+        <div className="input-n-btn">
             <input
             className="input-subscribe"
             placeholder="Enter your Email Address" 
