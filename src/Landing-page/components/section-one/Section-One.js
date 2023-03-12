@@ -31,9 +31,11 @@ export const Sectionone = () => {
                   Just sign up and Verify Your Identity with Passcoder. 
                   you'll be given a unique ID for all your data used across any platform
                   <br /><br />
+                  <br />
                   We Store a list of data for you to use anytime, anyday, anywhere.
                   <br />
-                 <b>  - Bio data: </b> For regular data forms<br />
+                  <br />
+                 <b> - Bio data: </b> For regular data forms<br />
                  <b> - Extended Bio data: </b> For Fintechs, De-fi companies and more<br />
                  <b> - Academic Data: </b> For Job applications<br />
                  <b> - Medical Data: </b> For Hospital and Emergency Services</p>
