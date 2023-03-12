@@ -29,7 +29,7 @@ export const Sectionone = () => {
                   with just your unique Passcoder ID. 
                   <br />
                   Just sign up and verify your identity with Passcoder. 
-                  you'll be given a unique ID for all your data used across any website and mobile application
+                  you'll be given a unique ID for all your data used across any website and mobile applications
                   <br /><br />
                   <br />
                   We Store a list of data for you to use anytime, anyday, anywhere.
