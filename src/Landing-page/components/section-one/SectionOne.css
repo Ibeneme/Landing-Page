@@ -15,7 +15,7 @@
 .center-this-image{
     width: 70%;
 }
-.center{
+.centering{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -141,18 +141,19 @@
 
 @media (max-width:439px){
     .div-container-gray{
-
-        width:100%;
+        margin-left: -1em;
+        margin-right: -1em;
+        width:114%;
         height:71em;
         background-color:#29248212;
-        padding-top: 1.9em;
-        padding-bottom: 1.9em;
-        margin-top: 2em;
         border-radius: 1em;
         display: flex;
         flex-direction: column;
         gap: 2em;
         
+    }
+    .p-section-one{
+        width: 100%;
     }
     .image-of-logo{
         margin-top: -1em;
@@ -164,5 +165,22 @@
     } .p-section-one{
         color:rgba(0, 0, 0, 0.778);
         font-size: 0.8em;
+    }
+    .centering{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .div-container-gray-one{
+        margin-top: 1.8em;
+        width: 110%;
+        margin-left: -0.5em;
+       
+
+      
+        
     }
 }

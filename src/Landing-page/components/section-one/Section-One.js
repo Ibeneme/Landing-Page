@@ -5,7 +5,8 @@ import Logo  from "./images/Vector.svg"
 
 export const Sectionone = () => {
   return (
-    <div className='center'>
+    <div className='centering
+      '>
       <div className='padding-section-one'>
         <div>
           <h1 
