@@ -19,8 +19,7 @@ export const Hero = () => {
                 </div>
                 <h1 className="h1-hero">Get One Digital  ID  for all platforms</h1>
                 <p className="p-hero">Passcoder helps you handle your KYC verification, 
-                    across all platforms, you get a digital ID on verification in-app, which you use to get verified 
-                    in any platform easily anytime, anywhere, any-day</p>
+                    across all websites and applications. One digital ID for anytime, anywhere, any-day</p>
                 <div className="hero-btn-div">
                     <Buttonblue />
                    <Buttongray />

@@ -15,8 +15,8 @@ export const Sectionone = () => {
           </h1>
           <p 
             className="p-hero">
-            Bringing tomorrow's solutions to life, 
-            with our customer-focused solutions, today.
+            Bringing tomorrow's solutions to life
+            with our customer-focused solutions today.
           </p>   
         </div>
         </div>
@@ -25,11 +25,11 @@ export const Sectionone = () => {
             <div className='div-container-gray-one'>
             <img className="image-of-logo" src={Logo} alt="svg" />
                 <h1 className='h1-section-one'> Passcoder unique ID</h1>
-                <p className='p-section-one'>Securely get verified on all platforms, that require use of KYC
+                <p className='p-section-one'>Securely get verified on all websites and applications that require use of KYC
                   with just your unique Passcoder ID. 
                   <br />
-                  Just sign up and Verify Your Identity with Passcoder. 
-                  you'll be given a unique ID for all your data used across any platform
+                  Just sign up and verify your identity with Passcoder. 
+                  you'll be given a unique ID for all your data used across any website and mobile application
                   <br /><br />
                   <br />
                   We Store a list of data for you to use anytime, anyday, anywhere.
