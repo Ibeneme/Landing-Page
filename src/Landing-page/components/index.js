@@ -6,7 +6,7 @@ import { Sectionone } from "./section-one/Section-One";
 import { SectionThree } from "./section-three/SectionThree";
 import { SectionFour } from "./Section four/SectionFour";
 import { Footer } from "./Footer/Footer";
-import Values from "./section-values/values";
+// // import Values from "./section-values/values";
 import Points from "./section-points/points";
 import Qualities from "./Qualities/Qualities";
 import Team from "./section-team/Team";
@@ -20,9 +20,9 @@ export const Index = () => {
       <div>
         <Hero />
       </div>
-      <div>
+      {/* <div>
         <Values />
-      </div>
+      </div> */}
       <div>
         <Sectionone />
       </div>

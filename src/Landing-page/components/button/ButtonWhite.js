@@ -10,7 +10,7 @@ export const Buttonblue = () => {
     <div>
         <button
         className="hero-btn-white"
-        style={{marginTop:'2em'}}>
+        style={{marginTop:'1em'}}>
             Get Started for Free
         </button>
     </div>

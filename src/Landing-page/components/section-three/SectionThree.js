@@ -8,7 +8,10 @@ export const SectionThree = () => {
   return (
     <div className='div-background'>
         <div className='div-background-div'>
-            <h1 className='div-background-h1'> 
+            <h1 className='div-background-h1'
+            style={{
+                marginBottom:'0.3em'
+            }}> 
                 We take your security seriously
             </h1>
             <p>Passcoder is certified to the highest industry data privacy standards 

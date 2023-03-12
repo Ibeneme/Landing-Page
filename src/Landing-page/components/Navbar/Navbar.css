@@ -132,27 +132,28 @@ nav {
     }
     .navbar-signup-button{
        display:flex;
-       
         justify-content: center;
         opacity: 1;
-        width: 26em;
+        width: 100%;
         height: 3em;
         border-radius: 0.43em;
         border:none;
-        background-color: white;
-        color:#10162F;
+        color:white;
         transition: 1s;
+        align-items: center;
      }
      .navbar-signup-button:hover{
-        display:block;
-         opacity: 1;
-         width: 26em;
-         height: 3em;
-         border-radius: 5em;
-         border:none;
-         background-color: orangered;
-         color:white;
-         transition: 1s;
+        display:flex;
+        justify-content: center;
+        opacity: 1;
+        align-items: center;
+        width: 100%;
+        height: 3em;
+        border-radius: 0.43em;
+        border:none;
+        color:white;
+        background-color: orangered;
+        transition: 1s;
       }
       
     .navbar-signup-button-close{
@@ -197,14 +198,7 @@ nav {
  
 	}
 
-    nav h6:hover {
-        font-size: 1.1rem;
-        background-color: #fff;
-        width: 100%;
-        padding: 0.9em 0.9em ;
-        color: #292482;
 
-    }
     
 }
 
