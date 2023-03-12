@@ -1,0 +1,48 @@
+.div-values{
+    background-color: #292482;
+    color: white;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4em;
+    height: 70vh;
+
+}
+.div-values>h1{
+    color: white;
+    margin-bottom: 0.5em;
+    font-size: 2.8em;
+  
+
+}
+
+.div-values>p{
+    color: white;
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+  
+
+}
+
+@media(max-width: 600px){
+    .div-values{
+        background-color: #292482;
+        color: white;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2em;
+        height: 70vh;
+    
+    }
+    .div-values>h1{
+        font-size: 1.9em;
+    
+    }
+}

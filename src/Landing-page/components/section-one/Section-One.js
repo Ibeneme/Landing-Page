@@ -5,7 +5,7 @@ import Logo  from "./images/Vector.svg"
 
 export const Sectionone = () => {
   return (
-    <>
+    <div className='center'>
       <div className='padding-section-one'>
         <div>
           <h1 
@@ -14,12 +14,12 @@ export const Sectionone = () => {
           </h1>
           <p 
             className="p-hero">
-            Bring tomorrow's solutions to life, 
+            Bringing tomorrow's solutions to life, 
             with our customer-focused solutions, today.
           </p>   
         </div>
         </div>
-        <div className='center'>
+       
         <div className='div-container-gray'>
             <div className='div-container-gray-one'>
             <img className="image-of-logo" src={Logo} alt="svg" />
@@ -43,10 +43,10 @@ export const Sectionone = () => {
             
         </div>
 
-        </div>
+     
         
        
-    </>
+    </div>
     
   )
 }

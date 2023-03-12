@@ -1,0 +1,31 @@
+.sub-input{
+    width: 100vw;
+}
+.values-quality{
+    background-color: black;
+    margin-top: -2em;
+}
+
+.form-subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.input-subscribe{
+    width: 20em;
+    height: 3.4em;
+    padding-left: 1em;
+    border-radius: 0.8em;
+    border: none;
+    margin-top: 1em;
+}
+.btn-subscribe{
+    padding: 1.05em;
+    margin-left: 0.5em;
+    background-color: orangered;
+    border: none;
+    border-radius: 0.8em;
+    color:white;
+}

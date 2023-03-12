@@ -19,7 +19,7 @@ a {
     padding: 0.9em 0.9em ;
     color: white;
     margin: 0 ;
-
+   
 }
 :root {
 	--mainColor: #10162F;;
@@ -61,6 +61,8 @@ nav h6 {
     font-size: 1em;
 	color: #000000;
 	text-decoration: none;
+    justify-content: center;
+    display: flex;
 }
 
 
@@ -129,7 +131,9 @@ nav {
         margin-top: 2em;
     }
     .navbar-signup-button{
-       display:block;
+       display:flex;
+       
+        justify-content: center;
         opacity: 1;
         width: 26em;
         height: 3em;
@@ -159,11 +163,11 @@ nav {
 		position: fixed;
 		top: 0;
 		left: 0;
-		height: 70%;
+		height: 30%;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-        align-items:first baseline;
+        align-items:center;
         text-align: left;
 		justify-content: center;
 		gap: 1.2rem;

@@ -24,19 +24,19 @@ function Navbar() {
 			  <h3 className="h3-for-navbar">Passcoder</h3>
       </div>
 			<nav className="nav-bar" ref={navRef}>
-			  <h6>About Us</h6>
-				<h6>Our Service</h6>
+			 <h6>Sign Up</h6>
+				 {/* <h6>Our Service</h6> 
         <div className="div-navbar-signup-button">
 
 			<h6>
-				<button 
+				{/* <button 
 				className="navbar-signup-button">
 					Sign Up
-				</button>
+				</button> 
 			</h6>
 
            
-        </div>
+        </div>*/}
 				<button
             className="nav-btn nav-close-btn"
 					  onClick={showNavbar}>

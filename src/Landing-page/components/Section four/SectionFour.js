@@ -2,7 +2,7 @@ import './SectionFour.css'
 import React from 'react'
 import { Buttonblue } from "../button/Buttonblue"
 import { Buttongray } from "../button/Buttongray"
-import Svg from './images/Component 1146.svg'
+import Svg from './images/Frame.svg'
 
 export const SectionFour = () => {
   return (
@@ -24,7 +24,7 @@ export const SectionFour = () => {
                     color: "white",
                     padding: "0.2em 0.4em",
                     marginLeft: "0.3em",
-                    borderRadius:"0.3em",
+                    
                     }}>Passcoder? </span></h1>
                 <p className="p-hero">Get verified in any platform needing KYC in minutes —
                  not weeks — not months with out-of-the-box solution. 

@@ -18,7 +18,25 @@
     border-radius: 05em;
     transition: 0.6s;
  }
+.hero-btn-white{
+   width: 15em;
+   height: 4em;
+   background-color: black;
+   color: #fff;
+   border:none;
+   border-radius: 0.43em;
+   transition: 0.6s;
+}
 
+.hero-btn-white:hover{
+   width: 15em;
+   height: 4em;
+   background-color: white;
+   color: #000;
+   border:none;
+   border-radius: 0.43em;
+   transition: 0.6s;
+}
 
 .hero-btn-btn{
    width: 15em;
@@ -95,6 +113,26 @@
  }
 
  @media (max-width:575px){
+   .hero-btn-white{
+      width: 27.5em;
+      height: 4em;
+      background-color: black;
+      color: #fff;
+      border:none;
+      border-radius: 0.43em;
+      transition: 0.6s;
+   }
+   
+   .hero-btn-white:hover{
+      width: 27.5em;
+      height: 4em;
+      background-color: white;
+      color: #000;
+      border:none;
+      border-radius: 0.43em;
+      transition: 0.6s;
+   }
+   
     .hero-btn{
         width: 27.5em;
         height: 4em;
@@ -170,6 +208,25 @@
       background-color: white;
       color: #292482;
       border-radius: 05em;
+      transition: 0.6s;
+   }
+   .hero-btn-white{
+      width: 16.5em;
+      height: 4em;
+      background-color: black;
+      color: #fff;
+      border:none;
+      border-radius: 0.43em;
+      transition: 0.6s;
+   }
+   
+   .hero-btn-white:hover{
+      width: 16.5em;
+      height: 4em;
+      background-color: white;
+      color: #000;
+      border:none;
+      border-radius: 0.43em;
       transition: 0.6s;
    }
     .hero-btn{

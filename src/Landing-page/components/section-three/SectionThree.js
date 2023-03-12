@@ -1,7 +1,8 @@
 import React from 'react'
 import './Sectionthree.css'
-import Svg from './images/security.svg'
-import { ButtonOrangered } from '../button/ButtonOrangered'
+import Svg from './images/Group 1.svg'
+
+import { Buttonblue } from '../button/ButtonWhite'
 
 export const SectionThree = () => {
   return (
@@ -14,7 +15,7 @@ export const SectionThree = () => {
                 — protecting you and your customers' privacy. We regularly ask your 
                 consent third-party access to your details 
             </p>
-            <ButtonOrangered />
+            <Buttonblue />
         </div>
         <div className='div-background-two'>
             <img className='div-background-img' src={Svg} alt={Svg}/>

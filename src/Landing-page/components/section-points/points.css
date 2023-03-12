@@ -1,0 +1,31 @@
+.main-points{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 6em;
+
+}
+.main-points-second-div{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.main-points-second-div>img{
+    width: 70%;
+
+}
+.main-points-first-div{
+    width: 100%;
+}
+
+.main-points-first-div>p{
+    margin-bottom: 3em;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}
+
+.main-points-first-div>h1{
+    font-size: 3.9em;
+}

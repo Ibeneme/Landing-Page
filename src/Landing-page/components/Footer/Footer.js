@@ -7,7 +7,8 @@ import { FaInstagram } from 'react-icons/fa';
 export const Footer = () => {
   return (
     <div className='footer-div' >
-        <div className='footer-div-div'>
+      <div className='footer-divdiv'>
+          <div className='footer-div-div'>
             <img src={Svg} alt="svg"
                 className='svg-footer' />
             <h5>Passcoder</h5>
@@ -29,6 +30,11 @@ export const Footer = () => {
             </a>
             
         </div>
+      </div>
+      <br/>
+      <br/>
+      <h5>@Passcoder Identity Limited 2023</h5>
+      
     </div>
   )
 }

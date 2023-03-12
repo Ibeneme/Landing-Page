@@ -1,16 +1,31 @@
 .footer-div{
     display: flex;
-    background-color: #292482;
+    flex-direction: column;
+    background-color: black;
     color: white;
-    padding: 4em;
+    padding: 2em;
     align-items: center;
     justify-content: space-between;
-    border-top: 0.07em solid rgba(255, 255, 255, 0.304);
+    padding-bottom: 4em;
+    
+}
+
+.footer-divdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    width: 100%;
+    justify-content: space-between;
+    
 }
 .footer-div-div{
     display: flex;
     align-items: center;
     gap: 1em;
+    justify-content: space-between;
 }
 
 .svg-footer{
@@ -26,11 +41,11 @@
 @media(max-width:567px){
     .footer-div{
         display: flex;
-        background-color: #292482;
+        background-color: black;
         color: white;
         padding: 2em;
         align-items: center;
         justify-content: space-between;
-        border-top: 0.07em solid rgba(255, 255, 255, 0.304);
+        
     }
 }
