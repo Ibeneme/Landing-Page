@@ -27,7 +27,7 @@ export const SectionFour = () => {
                     
                     }}>Passcoder? </span></h1>
                 <p className="p-hero">
-                Get verified on any website or mobile application needing KYC in minutes — not hours — not minutes with our simple and out-of-the-box solution. Once you are verified on Passcoder, you are verified everywhere else.
+                Get verified on any website or mobile application needing KYC in minutes — not hours — not days with our simple and out-of-the-box solution. Once you are verified on Passcoder, you are verified everywhere else.
                  </p>
                  
             <div className="hero-btn-div">
