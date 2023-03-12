@@ -134,8 +134,8 @@
      }
      .h1-hero{
         font-size: 1.4em;
-        margin-top: 4em;
-        margin-bottom: 0.8em;
+        margin-top: 2em;
+        margin-bottom: 0.4em;
     }
     .div-gray-tray{
         margin-top: 9em;
@@ -147,7 +147,7 @@
         justify-content: space-evenly;
     }
     .p-hero{
-        font-size: 0.8em;
+        font-size: 01em;
     }
     .padding-section-one{
         padding:1em;

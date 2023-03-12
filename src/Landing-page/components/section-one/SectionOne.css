@@ -142,9 +142,8 @@
 @media (max-width:439px){
     .div-container-gray{
         margin-left: -1em;
-        margin-right: -1em;
-        width:114%;
-        height:71em;
+        width:110%;
+        height:64em;
         background-color:#29248212;
         border-radius: 1em;
         display: flex;
