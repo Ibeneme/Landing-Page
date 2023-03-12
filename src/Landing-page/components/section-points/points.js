@@ -19,9 +19,10 @@ const Points = () => {
                 </div>
                 <p>Passcoder is Live in Nigeria!</p>
             </div> */}
-            <h1 className="h1-hero">Get Loyalty Points while using Passcoder
+            <h1 className="h1-hero">Get Loyalty Points and best of discounts while using Passcoder
             </h1>
-            <p className="p-hero">Businesses can offer loyalty points directly to Passcoder users ID to improve brand loyalty</p>
+            <p className="p-hero">Businesses can offer loyalty points directly to Passcoder users ID to improve brand loyalty
+            and customer retention</p>
             <div className="hero-btn-div">
             <Buttonblue/>
              

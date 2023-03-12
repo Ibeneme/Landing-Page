@@ -25,17 +25,18 @@ export const Sectionone = () => {
             <div className='div-container-gray-one'>
             <img className="image-of-logo" src={Logo} alt="svg" />
                 <h1 className='h1-section-one'> Passcoder unique ID</h1>
-                <p className='p-section-one' >Securely get verified on all platform that requires use of KYC
+                <p className='p-section-one'>Securely get verified on all platforms, that require use of KYC
                   with just your unique Passcoder ID. 
-                  How?, just sign up and Verify Your Identity with Passcoder. 
+                  <br />
+                  Just sign up and Verify Your Identity with Passcoder. 
                   you'll be given a unique ID for all your data used across any platform
                   <br /><br />
-                  We hold a list of data for you to use anytime, anyday, anywhere
+                  We Store a list of data for you to use anytime, anyday, anywhere.
                   <br />
                   - Bio data<br />
-                  - Extended Bio<br />
-                  - Credential ID<br />
-                  - Medical ID</p>
+                  - Extended Bio data<br />
+                  - Academic Data<br />
+                  - Medical Data</p>
       
             </div>
             <div className='center-this-image'>
