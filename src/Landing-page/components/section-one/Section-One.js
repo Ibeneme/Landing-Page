@@ -33,10 +33,10 @@ export const Sectionone = () => {
                   <br /><br />
                   We Store a list of data for you to use anytime, anyday, anywhere.
                   <br />
-                  - Bio data: For regular data forms<br />
-                  - Extended Bio data: For Fintechs, De-fi companies and more<br />
-                  - Academic Data: For Job applications<br />
-                  - Medical Data: For Hospital and Emergency Services</p>
+                 <b>  - Bio data: </b> For regular data forms<br />
+                 <b> - Extended Bio data: </b> For Fintechs, De-fi companies and more<br />
+                 <b> - Academic Data: </b> For Job applications<br />
+                 <b> - Medical Data: </b> For Hospital and Emergency Services</p>
       
             </div>
             <div className='center-this-image'>
