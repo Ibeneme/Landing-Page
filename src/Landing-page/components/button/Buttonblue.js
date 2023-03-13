@@ -9,7 +9,7 @@ export const Buttonblue = () => {
     
     <div>
         <button
-        className="hero-btn">
+        className="hero-btn hero-btn-bounce ">
             Get Started for Free
         </button>
     </div>

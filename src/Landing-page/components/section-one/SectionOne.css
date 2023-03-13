@@ -16,6 +16,9 @@
     width: 70%;
 }
 .centering{
+    
+    -webkit-animation: roll-in-left 0.6s ease-out both;
+    animation: roll-in-left 0.6s ease-out both;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -24,6 +27,7 @@
     align-items: flex-start;
     justify-content: center;
 }
+
 .div-container-gray-one{
     margin-top: 3.8em;
     width: 100%;

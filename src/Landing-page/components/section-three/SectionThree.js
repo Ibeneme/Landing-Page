@@ -16,7 +16,7 @@ export const SectionThree = () => {
             </h1>
             <p>Passcoder is certified to the highest industry data privacy standards — protecting your privacy.  Our system is 100% encrypted. We only help you store your data. We do not have access to it. Your data is safe with us.
             </p>
-            <Buttonblue />
+            <Buttonblue name="Get Started for free"/>
         </div>
         <div className='div-background-two'>
             <img className='div-background-img' src={Svg} alt={Svg}/>

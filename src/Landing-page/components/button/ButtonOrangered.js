@@ -9,7 +9,7 @@ export const ButtonOrangered = () => {
     
     <div>
         <button 
-        className="hero-btn-btn">
+        className="hero-btn-btn hero-btn-bounce ">
             Get Started for Free
         </button>
     </div>

@@ -2,16 +2,16 @@ import React from 'react'
 import "./button.css"
 
 
-export const Buttonblue = () => {
+export const Buttonblue = (props) => {
   
 
   return (
     
     <div>
         <button
-        className="hero-btn-white"
+        className="hero-btn-white hero-btn-bounce "
         style={{marginTop:'1em'}}>
-            Get Started for Free
+            {props.name}
         </button>
     </div>
   )
