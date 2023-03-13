@@ -1,6 +1,6 @@
 import "./Hero.css"
 import React from 'react'
-import Rectangle from "./images/Rectangle.jpg"
+import Rectangle from "./images/Component 1189.svg"
 import { Buttonblue } from "../button/Buttonblue"
 import { Buttongray } from "../button/Buttongray"
 
