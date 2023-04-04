@@ -44,6 +44,9 @@ export const Index = () => {
       </div>
       <div>
         <Qualities />
+        <br />
+        <br />
+        <br />
       </div>
       <div>
         <Footer />

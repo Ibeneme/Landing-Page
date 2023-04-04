@@ -1,6 +1,6 @@
 import React from 'react'
 import "./SectionOne.css"
-import Svg from "./images/Rectangle.svg"
+import Svg from "../Hero/images/Mock up 3 1.png"
 import Logo  from "./images/Vector.svg"
 
 export const Sectionone = () => {
@@ -11,12 +11,11 @@ export const Sectionone = () => {
         <div>
           <h1 
             className="h1-hero">
-            Build for the future of a digital ID.
+            Goodbye to identity theft, the future is here.
           </h1>
           <p 
             className="p-hero">
-            Bringing tomorrow's solutions to life
-            with our customer-focused solutions today.
+           All your important data, encrypted and in your control
           </p>   
         </div>
         </div>
@@ -32,13 +31,14 @@ export const Sectionone = () => {
                   You'll be given a unique ID for all your data used across any website and mobile applications
                   <br /><br />
                   <br />
-                  We Store a list of data for you to use anytime, anyday, anywhere.
+                  {/* We Store a list of data for you to use anytime, anyday, anywhere.
                   <br />
                   <br />
                  <b> - Bio data: </b> For regular data forms<br />
                  <b> - Extended Bio data: </b> For Fintechs, De-fi companies and more<br />
                  <b> - Academic Data: </b> For Job applications<br />
-                 <b> - Medical Data: </b> For Hospital and Emergency Services</p>
+                 <b> - Medical Data: </b> For Hospital and Emergency Services */}
+                 </p>
       
             </div>
             <div className='center-this-image'>
