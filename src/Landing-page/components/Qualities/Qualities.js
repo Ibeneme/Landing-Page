@@ -10,17 +10,12 @@ const Qualities = () => {
     <>
     <div className="hero-div"
     style={{
-      marginTop:'-7em'
+      marginTop:'1em'
     }}>
 
 <div className="new-width-changes">
-    {/* <div className="div-gray-tray">
-        <div className="div-for-new">
-            <p>New</p>
-        </div>
-        <p>Passcoder is Live in Nigeria!</p>
-    </div> */}
-    <h1 className="h1-hero">A digital store for all your data</h1>
+    <h1
+    className="h1-hero">A digital store for all your data</h1>
     <p>We Store a list of data for you to use anytime, anyday, anywhere.
                   <br />
                   <br />
