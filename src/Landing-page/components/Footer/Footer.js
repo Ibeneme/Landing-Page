@@ -37,6 +37,18 @@ export const Footer = () => {
       <br />
 
       <h6>Powered by Prembly</h6>
+     <br />
+      <div style={{
+        display: 'flex',
+        gap: '4em',
+        marginTop: '3em',
+        color: 'gray'
+
+      }}>
+
+        <h5>Privacy Policy</h5>
+        <h5>Terms and Conditions</h5>
+      </div>
     </div>
   )
 }
