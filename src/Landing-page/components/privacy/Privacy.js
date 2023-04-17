@@ -12,7 +12,7 @@ const Privacy = () => {
                 style={{
                 marginTop:'4em',
                 fontWeight: 'bolder'
-                }}>Passcoder Terms and Conditions</h1>
+                }}>Passcoder Privacy Policy</h1>
            <p
            className='terms-p'>
               Passcoder Limited has adopted standard privacy protection mechanisms for its users. We are

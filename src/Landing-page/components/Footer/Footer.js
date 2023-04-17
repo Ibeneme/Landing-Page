@@ -48,9 +48,14 @@ export const Footer = () => {
 
       }}>
 
-        <h5
+        <h5 style={{
+          cursor:'pointer'
+        }}
         onClick={e=>Navigate('/privacy')}>Privacy Policy</h5>
-        <h5  onClick={e=>Navigate('/terms')} >Terms and Conditions</h5>
+        <h5 
+        style={{
+          cursor:'pointer'
+        }} onClick={e=>Navigate('/terms')} >Terms and Conditions</h5>
       </div>
     </div>
   )
