@@ -3,8 +3,10 @@ import React from 'react'
 import {BsTwitter, BsLinkedin} from 'react-icons/bs'
 import './Footer.css'
 import { FaInstagram } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom'
 
 export const Footer = () => {
+  let Navigate = useNavigate()
   return (
     <div className='footer-div' >
       <div className='footer-div-div'>
@@ -46,8 +48,9 @@ export const Footer = () => {
 
       }}>
 
-        <h5>Privacy Policy</h5>
-        <h5>Terms and Conditions</h5>
+        <h5
+        onClick={e=>Navigate('/privacy')}>Privacy Policy</h5>
+        <h5  onClick={e=>Navigate('/terms')} >Terms and Conditions</h5>
       </div>
     </div>
   )

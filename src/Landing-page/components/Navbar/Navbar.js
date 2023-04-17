@@ -2,12 +2,13 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css"
 import Svg from "./Vector.svg"
+import { useNavigate } from 'react-router-dom'
 
 
 function Navbar() {
 
 	
-	
+	let Navigate = useNavigate()
     
 	const navRef = useRef();
 
@@ -22,7 +23,7 @@ function Navbar() {
 		}}>
 
       {/* logo in svg */}
-      <div>
+      <div  onClick={e=>Navigate('/')}>
         <img src={Svg} alt="logo" style={{color:"#292482"}} />
 			  <h3 className="h3-for-navbar">Passcoder</h3>
       </div>
