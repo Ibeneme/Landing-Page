@@ -70,7 +70,7 @@ Passcoder’s services may be personalized to each user based on their activity,
        By accessing our services, you confirm that you’re at least 18 years old and meet the minimum age required by law. To access the services on an ongoing basis, you will need to create a Passcoder account. You can provide a username and password, and a way of contacting you (such as an email address and/or phone number). You’ll also need to provide your birthday. In some cases, you may be required to verify your account or provide additional information.
 
        </p>
-       <h3>3. Grant of rights; Restrictions on use r</h3>
+       <h3>3. Grant of rights; Restrictions on use </h3>
        <p className='terms-p'>
        You are responsible for the security of your account, and you agree to notify us immediately if you believe your account has been compromised. If you use a password, it must be strong, and we (strongly) recommend that you use that password only for your Passcoder account and that you enable two-factor authentication. 
 
