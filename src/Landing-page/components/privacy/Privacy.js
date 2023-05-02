@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { Footer } from '../Footer/Footer'
+import Logo from './images/Rectangle 4205.png'
 
 const Privacy = () => {
     return (
@@ -8,11 +9,15 @@ const Privacy = () => {
             <Navbar />
             <div
           className='terms-div'>
-                <h1
-                style={{
-                marginTop:'4em',
-                fontWeight: 'bolder'
-                }}>Passcoder Privacy Policy</h1>
+                <span className='illustartion-header'> 
+                  <h1
+                    style={{
+                    marginTop:'4em',
+                    fontWeight: 'bolder'
+                  }}>Passcoder Privacy Policy</h1>
+
+                  <img  src={Logo} alt='illustration'/>
+                </span>
            <p
            className='terms-p'>
               Passcoder Limited has adopted standard privacy protection mechanisms for its users. We are

@@ -1,23 +1,32 @@
 import React from "react";
+import { Footer } from "../Footer/Footer";
+import Logo from '../privacy/images/Rectangwle 4205.png'
 
 const Support = () => {
   return (
     <div>
-      <script
-        type="text/javascript"
-        src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"
-      ></script>
-      <style type="text/css" media="screen, projection"></style>
+         <span className='illustartion-header'> 
+                  <h1
+                    style={{
+                    marginTop:'4em',
+                    fontWeight: 'bolder'
+                  }}>Support</h1>
+
+                  <img  src={Logo} alt='illustration'/>
+                </span>
+                <div style={{margin: "2em"}}>
       <iframe
         title="Feedback Form"
         class="freshwidget-embedded-form"
         id="freshwidget-embedded-form"
         src="https://passcoder.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded"
-        scrolling="no"
-        height="500px"
+        height="800px"
+     
         width="100%"
         frameborder="0"
       ></iframe>
+                </div>
+      < Footer />
     </div>
   );
 };

@@ -14,7 +14,6 @@ function App() {
       <Route path="/terms" element={<Terms />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/support" element={<Support />} />
-   
     </Routes>
   </BrowserRouter>
   );

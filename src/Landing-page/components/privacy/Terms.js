@@ -2,6 +2,7 @@ import React from 'react'
 import { Footer } from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 import './Terms.css'
+import Logo from './images/Group 133629.png'
 
 const Terms = () => {
   return (
@@ -9,11 +10,15 @@ const Terms = () => {
         <Navbar />
         <div
       className='terms-div'>
-            <h1
-            style={{
-            marginTop:'4em',
-            fontWeight: 'bolder'
-            }}>Passcoder Terms and Conditions</h1>
+            <span className='illustartion-header'> 
+                  <h1
+                    style={{
+                    marginTop:'4em',
+                    fontWeight: 'bolder'
+                  }}>Terms And Conditions</h1>
+
+                  <img  src={Logo} alt='illustration'/>
+                </span>
        <p
        className='terms-p'>
             The terms and conditions listed below 
