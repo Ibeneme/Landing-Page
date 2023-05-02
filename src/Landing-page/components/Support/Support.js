@@ -21,15 +21,15 @@ const Support = () => {
 
            <div className="iframe">
            <iframe
-        title="Feedback Form"
-        class="freshwidget-embedded-form"
-        id="freshwidget-embedded-form"
-        src="https://passcoder.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded"
-        height="800px"
-     
-        width="100%"
-        frameborder="0"
-      ></iframe>
+              title="Feedback Form"
+              class="freshwidget-embedded-form"
+              id="freshwidget-embedded-form"
+              src="https://passcoder.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&submitTitle=Send"
+              height="720px"
+          
+              width="100%"
+              frameborder="0"
+            ></iframe>
             </div>  
      
                 
