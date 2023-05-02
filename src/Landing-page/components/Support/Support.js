@@ -1,10 +1,12 @@
 import React from "react";
 import { Footer } from "../Footer/Footer";
 import Logo from '../privacy/images/Rectangwle 4205.png'
+import Navbar from "../Navbar/Navbar";
 
 const Support = () => {
   return (
     <div>
+      <Navbar />
        <div className='terms-div' >
          <span className='illustartion-header'> 
                   <h1
