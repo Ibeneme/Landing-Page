@@ -5,16 +5,18 @@ import Logo from '../privacy/images/Rectangwle 4205.png'
 const Support = () => {
   return (
     <div>
+       <div className='terms-div' >
          <span className='illustartion-header'> 
                   <h1
                     style={{
                     marginTop:'4em',
                     fontWeight: 'bolder'
-                  }}>Support</h1>
+                  }}>Support and help</h1>
 
                   <img  src={Logo} alt='illustration'/>
                 </span>
-                <div style={{margin: "2em"}}>
+                <br />   <br />
+             
       <iframe
         title="Feedback Form"
         class="freshwidget-embedded-form"
@@ -25,9 +27,12 @@ const Support = () => {
         width="100%"
         frameborder="0"
       ></iframe>
-                </div>
-      < Footer />
+                
+  
+    </div>  < Footer />
     </div>
+   
+      
   );
 };
 

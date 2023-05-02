@@ -56,6 +56,11 @@ export const Footer = () => {
         style={{
           cursor:'pointer'
         }} onClick={e=>Navigate('/terms')} >Terms and Conditions</h5>
+
+<h5 
+        style={{
+          cursor:'pointer'
+        }} onClick={e=>Navigate('/support')} >Support</h5>
       </div>
     </div>
   )
