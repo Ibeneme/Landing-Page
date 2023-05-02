@@ -62,6 +62,8 @@ export const Footer = () => {
           cursor:'pointer'
         }} onClick={e=>Navigate('/support')} >Support</h5>
       </div>
+
+      <br />    <br />   
     </div>
   )
 }

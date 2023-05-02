@@ -16,8 +16,9 @@ const Support = () => {
                   <img  src={Logo} alt='illustration'/>
                 </span>
                 <br />   <br />
-             
-      <iframe
+
+           <div className="iframe">
+           <iframe
         title="Feedback Form"
         class="freshwidget-embedded-form"
         id="freshwidget-embedded-form"
@@ -27,6 +28,8 @@ const Support = () => {
         width="100%"
         frameborder="0"
       ></iframe>
+            </div>  
+     
                 
   
     </div>  < Footer />
