@@ -1,14 +1,22 @@
 import './SectionFour.css'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Buttonblue } from "../button/Buttonblue"
 import { Buttongray } from "../button/Buttongray"
 import Svg from './images/Frame.svg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 export const SectionFour = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
   return (
 
     <>
-        <div className="hero-div">
+        <div data-aos="zoom-in"  className="hero-div">
 
             <div className="new-width-changes" >
                 {/* <div className="div-gray-tray">
@@ -30,7 +38,7 @@ export const SectionFour = () => {
                 Get verified on any website or mobile application needing KYC in minutes — not hours — not days with our simple and out-of-the-box solution. Once you are verified on Passcoder, you are verified everywhere else.
                  </p>
                  
-            <div className="hero-btn-div">
+            <div  data-aos="zoom-in"  className="hero-btn-div">
                     <Buttonblue />
                    <Buttongray />
                 </div>

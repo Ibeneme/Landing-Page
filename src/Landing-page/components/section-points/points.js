@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Buttonblue } from '../button/ButtonWhite'
 import Svg from './images/Frame.svg'
 import './points.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Points = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
+    
   return (
 
     <>
-    <div className="hero-div"
+    <div data-aos="zoom-in" className="hero-div"
     style={{
         backgroundColor: 'blanchedalmond'
     }}>
@@ -27,7 +34,7 @@ const Points = () => {
                 <Buttonblue name="Get Started for Free"/>
             </div>
         </div>
-        <div >
+        <div data-aos="fade-left" >
             <img 
             className="img-for-width"
             src={Svg} 

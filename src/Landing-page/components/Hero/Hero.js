@@ -1,16 +1,24 @@
 import "./Hero.css"
-import React from 'react'
+import React, { useEffect } from 'react'
 import Rectangle from './images/Mockup 1 1.png'
 import { Buttonblue } from "../button/Buttonblue"
 import { Buttongray } from "../button/Buttongray"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-export const Hero = () => {
+
+   
+
+export const Hero = () => { 
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
 
     <>
-        <div className="hero-div">
+        <div data-aos="zoom-in" className="hero-div">
 
-            <div className="new-width-changes">
+            <div  data-aos="zoom-in" className="new-width-changes">
                 <div className="div-gray-tray">
                     <div className="div-for-new">
                         <p>New</p>
@@ -25,7 +33,7 @@ export const Hero = () => {
                    <Buttongray />
                 </div>
             </div>
-            <div >
+            <div data-aos="flip-left"  >
                 <img 
                 className="img-for-width"
                 src={Rectangle} 

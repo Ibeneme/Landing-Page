@@ -1,19 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./qualities.css";
 import { Buttonblue } from "../button/Buttonblue";
 import { Buttongray } from "../button/Buttongray";
 
 import Rectangle from '../Hero/images/Mockup 1 1.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
+
+
+
+
 
 const Qualities = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <>
-    <div className="hero-div"
+    <div  data-aos="zoom-in" className="hero-div"
     style={{
       marginTop:'1em'
     }}>
 
-<div className="new-width-changes">
+<div data-aos="zoom-in" className="new-width-changes">
     <h1
     className="h1-hero">A digital store for all your data</h1>
     <p>We Store a list of data for you to use anytime, anyday, anywhere.
@@ -28,7 +41,7 @@ const Qualities = () => {
        <Buttongray />
     </div>
 </div>
-<div >
+<div data-aos="zoom-in" >
     <img 
     className="img-for-width"
     src={Rectangle} 

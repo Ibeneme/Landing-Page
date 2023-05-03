@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Sectionthree.css'
 import Svg from './images/Group 1.svg'
 
 import { Buttonblue } from '../button/ButtonWhite'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 
 export const SectionThree = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
-    <div className='div-background'>
+    <div  data-aos="zoom-in" className='div-background'>
         <div className='div-background-div'>
             <h1 className='div-background-h1'
             style={{
@@ -18,7 +26,7 @@ export const SectionThree = () => {
             </p>
             <Buttonblue name="Get Started for free"/>
         </div>
-        <div className='div-background-two'>
+        <div  data-aos="zoom-in" className='div-background-two'>
             <img className='div-background-img' src={Svg} alt={Svg}/>
         </div>
 
